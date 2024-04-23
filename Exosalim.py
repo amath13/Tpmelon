@@ -1,4 +1,4 @@
-#Créer la fonction de reverse
+# Créer la fonction de reverse
 def reverseOrdre(list):
     inv = []
     i = len(list)-1
@@ -11,5 +11,5 @@ def reverseOrdre(list):
 list = [1, 2, 3, 4, 5]
 list_invert = reverseOrdre(list)
 
-#afficher la liste apré reverse
+# afficher la liste apré reverse
 print(list_invert)
