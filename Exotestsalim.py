@@ -20,7 +20,7 @@ class testFonction(unittest.TestCase):
         # Cas de test avec une liste contenant des éléments dupliqués
         self.assertEqual(reverseOrdre([1, 2, 2, 3]), [3, 2, 2, 1])
         # Cas de test ou une partie des elemnets de la liste sont identiques
-        #self.assertEqual(reverseOrdre([1, 1, 'a', 'b', ]), [1, 'b', 'a', 1, 1])
+        # self.assertEqual(reverseOrdre([1, 1, 'a', 'b', ]), [1, 'b', 'a', 1, 1])
      
 # Exécuter les tests
 if __name__ == '__main__':
